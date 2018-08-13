@@ -9,15 +9,15 @@
 </template>
 
 <script>
-import { swiper, swiperSlide } from 'vue-awesome-swiper'
-import 'swiper/dist/css/swiper.css'
+// import { swiper, swiperSlide } from 'vue-awesome-swiper'
+// import 'swiper/dist/css/swiper.css'
 
 export default {
   props: ['data', 'slides'],
-  components: {
-    swiper,
-    swiperSlide
-  },
+  // components: {
+  //   swiper,
+  //   swiperSlide
+  // },
   mounted() {
     // console.log('this is current swiper instance object', this.swiper)
     // this.swiper.slideTo(3, 1000, false)

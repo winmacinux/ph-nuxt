@@ -23,14 +23,14 @@
 </template>
 
 <script>
-import { swiper, swiperSlide } from 'vue-awesome-swiper'
+// import { swiper, swiperSlide } from 'vue-awesome-swiper'
 
 export default {
   props: ['slides'],
-  components: {
-    swiper,
-    swiperSlide
-  },
+  // components: {
+  //   swiper,
+  //   swiperSlide
+  // },
   computed: {
     nearByCities() {
       return this.$store.getters.loadUserNearByCities

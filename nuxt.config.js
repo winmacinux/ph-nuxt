@@ -33,6 +33,7 @@ module.exports = {
     vendor: [
       '~/plugins/vuetify.js',
       'vue2-google-maps',
+      'vue-awesome-swiper'
     ],
     extend (config, { isDev, isClient }) {
       // if (isDev && isClient) {
