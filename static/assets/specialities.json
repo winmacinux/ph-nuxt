@@ -1,0 +1,578 @@
+{
+  "specialities": [
+  {
+    "id": "1",
+    "data": "Acupuncture",
+    "name": "Acupuncture",
+    "quick": true,
+    "icon": "/icons/acupuncture.png"
+  },
+  {
+    "id": "1",
+    "data": "Allergy/Immunologist",
+    "name": "Allergy",
+    "quick": true,
+    "icon": "/icons/allergy.png"
+  },
+  {
+    "id": "1",
+    "data": "Anesthesiologist",
+    "name": "Anesthesiology",
+    "quick": true,
+    "icon": "/icons/anesthesia.png"
+  },
+  {
+    "id": "1",
+    "data": "Audiologist",
+    "name": "Audiology",
+    "quick": true,
+    "icon": "/icons/audiology.png"
+  },
+  {
+    "id": "1",
+    "data": "Ayurveda",
+    "name": "Ayurveda",
+    "quick": false,
+    "icon": "/icons/ayurveda.png"
+  },
+  {
+    "id": "1",
+    "data": "Cardiac Electrophysiologist",
+    "name": "Cardiac Electrophysiology",
+    "quick": false,
+    "icon": "/icons/cardiac_electrophysiology.png"
+  },
+  {
+    "id": "1",
+    "data": "Cardiologist",
+    "name": "Cardiology",
+    "quick": true,
+    "icon": "/icons/cardiology.png"
+  },
+  {
+    "id": "1",
+    "data": "Cardiothoracic Surgeon",
+    "name": "Cardiothoracic Surgery",
+    "quick": false,
+    "icon": "/icons/cardiothoracic_surgery.png"
+  },
+  {
+    "id": "1",
+    "data": "Colorectal Surgeon",
+    "name": "Colorectal Surgery",
+    "quick": false,
+    "icon": "/icons/colorectal_surgery.png"
+  },
+  {
+    "id": "1",
+    "data": "Cosmetic Surgeon",
+    "name": "Cosmetic Surgery",
+    "quick": false,
+    "icon": "/icons/cosmetic_surgery.png"
+  },
+  {
+    "id": "1",
+    "data": "Dentist",
+    "name": "Oral Health",
+    "quick": true,
+    "icon": "/icons/oral_health.png"
+  },
+  {
+    "id": "1",
+    "data": "Dermatologist",
+    "name": "Dermatology",
+    "quick": false,
+    "icon": "/icons/dermatology.png"
+  },
+  {
+    "id": "1",
+    "data": "Developmental Pediatrician",
+    "name": "Developmental Pediatrics",
+    "quick": false,
+    "icon": "/icons/pediatrician.png"
+  },
+  {
+    "id": "1",
+    "data": "Diabetologist",
+    "name": "Diabetology",
+    "quick": true,
+    "icon": "/icons/diabeties.png"
+  },
+  {
+    "id": "1",
+    "data": "Ear-Nose-Throat(ENT) Specialist",
+    "name": "ENT",
+    "quick": true,
+    "icon": "/icons/ent.png"
+  },
+  {
+    "id": "1",
+    "data": "Embryologist",
+    "name": "Embryology",
+    "quick": false,
+    "icon": "/icons/embryology.png"
+  },
+  {
+    "id": "1",
+    "data": "Emergency Medicine Physician",
+    "name": "Emergency Medicine Clinic",
+    "quick": false,
+    "icon": "/icons/emergency_medicine_clinic.png"
+  },
+  {
+    "id": "1",
+    "data": "Endocrinologist",
+    "name": "Endocrinology",
+    "quick": true,
+    "icon": "/icons/endocrinology.png"
+  },
+  {
+    "id": "1",
+    "data": "Endodontist",
+    "name": "Endodontics",
+    "quick": false,
+    "icon": "/icons/endodontics.png"
+  },
+  {
+    "id": "1",
+    "data": "Epidemiologist",
+    "name": "Epidemiology",
+    "quick": false,
+    "icon": "/icons/epidemiology.png"
+  },
+  {
+    "id": "1",
+    "data": "Family Practitioner",
+    "name": "Family Practitioner",
+    "quick": false,
+    "icon": "/icons/family_practitioner.png"
+  },
+  {
+    "id": "1",
+    "data": "Fitness Center ",
+    "name": "Fitness Center",
+    "quick": false,
+    "icon": "/icons/fitness_center.png"
+  },
+  {
+    "id": "1",
+    "data": "Gastroenterologist",
+    "name": "Gastroenterology",
+    "quick": true,
+    "icon": "/icons/gastroenterology.png"
+  },
+  {
+    "id": "1",
+    "data": "General Physician",
+    "name": "General Medicine",
+    "quick": false,
+    "icon": "/icons/general_medicine.png"
+  },
+  {
+    "id": "1",
+    "data": "General Surgeon",
+    "name": "General Surgery",
+    "quick": true,
+    "icon": "/icons/general_surgery.png"
+  },
+  {
+    "id": "1",
+    "data": "Geneticis Specialist",
+    "name": "Geneticis",
+    "quick": false,
+    "icon": "/icons/geneticis.png"
+  },
+  {
+    "id": "1",
+    "data": "Gym Physician",
+    "name": "Gym Physician",
+    "quick": false,
+    "icon": "/icons/gym_physician.png"
+  },
+  {
+    "id": "1",
+    "data": "Hand Surgeon",
+    "name": "Hand Surgery",
+    "quick": false,
+    "icon": "/icons/hand_surgery2.png"
+  },
+  {
+    "id": "1",
+    "data": "Hematologist",
+    "name": "Hematology",
+    "quick": false,
+    "icon": "/icons/hematology.png"
+  },
+  {
+    "id": "1",
+    "data": "Homeopathic",
+    "name": "Homeopathy",
+    "quick": false,
+    "icon": "/icons/homeopathy.png"
+  },
+  {
+    "id": "1",
+    "data": "Infectious Disease Specialist",
+    "name": "Infectious Disease",
+    "quick": false,
+    "icon": "/icons/infectious_disease.png"
+  },
+  {
+    "id": "1",
+    "data": "Infertility Clinic Specialist",
+    "name": "Infertility Clinic",
+    "quick": false,
+    "icon": "/icons/infertility_clinic3.png"
+  },
+  {
+    "id": "1",
+    "data": "Integrated Medicine",
+    "name": "Integrated Medicine",
+    "quick": false,
+    "icon": "/icons/integrated_medicine.png"
+  },
+  {
+    "id": "1",
+    "data": "Internist Specialist",
+    "name": "Internist",
+    "quick": false,
+    "icon": "/icons/internist.png"
+  },
+  {
+    "id": "1",
+    "data": "Laboratory Medicine Specialist",
+    "name": "Laboratory Medicine",
+    "quick": false,
+    "icon": "/icons/laboratory_medicine.png"
+  },
+  {
+    "id": "1",
+    "data": "Nephrologist",
+    "name": "Nephrology",
+    "quick": false,
+    "icon": "/icons/nephrology.png"
+  },
+  {
+    "id": "1",
+    "data": "Neurologist",
+    "name": "Neurology",
+    "quick": true,
+    "icon": "/icons/neurology.png"
+  },
+  {
+    "id": "1",
+    "data": "Neurosurgeon",
+    "name": "Neurosurgery",
+    "quick": false,
+    "icon": "/icons/neurosurgery.png"
+  },
+  {
+    "id": "1",
+    "data": "Nuclear Medicine Specialist",
+    "name": "Nuclear Medicine",
+    "quick": false,
+    "icon": "/icons/nuclear_medicine.png"
+  },
+  {
+    "id": "1",
+    "data": "Nutritionist",
+    "name": "Nutrition",
+    "quick": false,
+    "icon": "/icons/nutrition.png"
+  },
+  {
+    "id": "1",
+    "data": "Obstetrician/Gynecologist",
+    "name": "Gynaecology",
+    "quick": true,
+    "icon": "/icons/gynaecology.png"
+  },
+  {
+    "id": "1",
+    "data": "Occupational Therapist",
+    "name": "Occupational Therapy",
+    "quick": false,
+    "icon": "/icons/occupational_therapy.png"
+  },
+  {
+    "id": "1",
+    "data": "Oncologist",
+    "name": "Oncology",
+    "quick": false,
+    "icon": "/icons/oncology.png"
+  },
+  {
+    "id": "1",
+    "data": "Ophthalmologist",
+    "name": "Ophthalmology",
+    "quick": false,
+    "icon": "/icons/ophthalmology.png"
+  },
+  {
+    "id": "1",
+    "data": "Oral Surgeon",
+    "name": "Oral Surgery",
+    "quick": false,
+    "icon": "/icons/oral_surgery.png"
+  },
+  {
+    "id": "1",
+    "data": "Orthodontist",
+    "name": "Orthodontics",
+    "quick": false,
+    "icon": "/icons/orthodontics.png"
+  },
+  {
+    "id": "1",
+    "data": "Orthopedic Surgeon",
+    "name": "Orthopedic",
+    "quick": true,
+    "icon": "/icons/orthopedics.png"
+  },
+  {
+    "id": "1",
+    "data": "Osteologist",
+    "name": "Osteology",
+    "quick": false,
+    "icon": "/icons/osteology.png"
+  },
+  {
+    "id": "1",
+    "data": "Pain Management Specialist",
+    "name": "Pain Management",
+    "quick": false,
+    "icon": "/icons/pain_management.png"
+  },
+  {
+    "id": "1",
+    "data": "Pathologist",
+    "name": "Pathology",
+    "quick": false,
+    "icon": "/icons/microscope.png"
+  },
+  {
+    "id": "1",
+    "data": "Pediatric Dentist",
+    "name": "Pediatric Dentistry",
+    "quick": false,
+    "icon": "/icons/pediatric_dentistry.png"
+  },
+  {
+    "id": "1",
+    "data": "Pediatric Surgeon",
+    "name": "Pediatric Surgery",
+    "quick": false,
+    "icon": "/icons/pediatric_surgery.png"
+  },
+  {
+    "id": "1",
+    "data": "Pediatrician",
+    "name": "Pediatrics",
+    "quick": false,
+    "icon": "/icons/pediatrician1.png"
+  },
+  {
+    "id": "1",
+    "data": "Periodontist",
+    "name": "Periodontistry",
+    "quick": false,
+    "icon": "/icons/periodontistry1.png"
+  },
+  {
+    "id": "1",
+    "data": "Physical Medicine and Rehab Specialist",
+    "name": "Physical Medicine and Rehab",
+    "quick": false,
+    "icon": "/icons/physical_medicine.png"
+  },
+  {
+    "id": "1",
+    "data": "Physical Therapist",
+    "name": "Physical Therapy",
+    "quick": false,
+    "icon": "/icons/physical_therapy.png"
+  },
+  {
+    "id": "1",
+    "data": "Physiotherapist",
+    "name": "Physiotherapy",
+    "quick": false,
+    "icon": "/icons/physiotherapy.png"
+  },
+  {
+    "id": "1",
+    "data": "Plastic Surgeon",
+    "name": "Plastic Surgery",
+    "quick": false,
+    "icon": "/icons/plastic_surgery.png"
+  },
+  {
+    "id": "1",
+    "data": "Podiatrist",
+    "name": "Podiatry",
+    "quick": false,
+    "icon": "/icons/podiatry.png"
+  },
+  {
+    "id": "1",
+    "data": "Polyclinic",
+    "name": "Polyclinic",
+    "quick": false,
+    "icon": "/icons/polyclinic.png"
+  },
+  {
+    "id": "1",
+    "data": "Pranic Healing",
+    "name": "Pranic Healing",
+    "quick": false,
+    "icon": "/icons/pranic _healing4.png"
+  },
+  {
+    "id": "1",
+    "data": "Primary Care Doctor",
+    "name": "Primary Care",
+    "quick": false,
+    "icon": "/icons/primary_care_doctor.png"
+  },
+  {
+    "id": "1",
+    "data": "Prosthodontist",
+    "name": "Prosthodontistry",
+    "quick": false,
+    "icon": "/icons/prosthodontistry.png"
+  },
+  {
+    "id": "1",
+    "data": "Psychiatrist",
+    "name": "Psychiatry",
+    "quick": true,
+    "icon": "/icons/psychiatry.png"
+  },
+  {
+    "id": "1",
+    "data": "Psychologist",
+    "name": "Psychology",
+    "quick": false,
+    "icon": "/icons/psychology.png"
+  },
+  {
+    "id": "1",
+    "data": "Public Health Professional",
+    "name": "Public Health",
+    "quick": false,
+    "icon": "/icons/public_health.png"
+  },
+  {
+    "id": "1",
+    "data": "Pulmonologist",
+    "name": "Pulmonology",
+    "quick": true,
+    "icon": "/icons/pulmonology.png"
+  },
+  {
+    "id": "1",
+    "data": "Radiation Oncologist",
+    "name": "Radiation Oncology",
+    "quick": false,
+    "icon": "/icons/radiation_oncology.png"
+  },
+  {
+    "id": "1",
+    "data": "Radiologist",
+    "name": "Radiology",
+    "quick": false,
+    "icon": "/icons/radiology.png"
+  },
+  {
+    "id": "1",
+    "data": "Rheumatologist",
+    "name": "Rheumatology",
+    "quick": false,
+    "icon": "/icons/rheumatology.png"
+  },
+  {
+    "id": "1",
+    "data": "Rhinologist",
+    "name": "Rhinology",
+    "quick": true,
+    "icon": "/icons/rhinology.png"
+  },
+  {
+    "id": "1",
+    "data": "Sexual Medicine Specialist/Sexologist",
+    "name": "Sexology",
+    "quick": false,
+    "icon": "/icons/sexology.png"
+  },
+  {
+    "id": "1",
+    "data": "Sleep Disorders Specialist",
+    "name": "Sleep Disorders",
+    "quick": false,
+    "icon": "/icons/sleep_disorders.png"
+  },
+  {
+    "id": "1",
+    "data": "Spa and Saloon Physician",
+    "name": "Spa and Saloon",
+    "quick": false,
+    "icon": "/icons/spa_and_saloon.png"
+  },
+  {
+    "id": "1",
+    "data": "Speech Therapist",
+    "name": "Speech Therapy",
+    "quick": false,
+    "icon": "/icons/speech_therapy.png"
+  },
+  {
+    "id": "1",
+    "data": "Sports Medicine Specialist",
+    "name": "Sports Medicine",
+    "quick": false,
+    "icon": "/icons/sports_medicine.png"
+  },
+  {
+    "id": "1",
+    "data": "Trichologist",
+    "name": "Trichology",
+    "quick": false,
+    "icon": "/icons/trichology.png"
+  },
+  {
+    "id": "1",
+    "data": "Urologist",
+    "name": "Urology",
+    "quick": true,
+    "icon": "/icons/urology.png"
+  },
+  {
+    "id": "1",
+    "data": "Vascular Surgeon",
+    "name": "Vascular Surgery",
+    "quick": false,
+    "icon": "/icons/vascular_surgery.png"
+  },
+  {
+    "id": "1",
+    "data": "Veterinary Physician",
+    "name": "Veterinary",
+    "quick": false,
+    "icon": "/icons/veterinary.png"
+  },
+  {
+    "id": "1",
+    "data": "Wellness Centre",
+    "name": "Wellness Centre",
+    "quick": false,
+    "icon": "/icons/wellness_centre.png"
+  },
+  {
+    "id": "1",
+    "data": "Yoga Therapist",
+    "name": "Yoga Therapy",
+    "quick": false,
+    "icon": "/icons/yoga_therapy.png"
+  }
+]
+}

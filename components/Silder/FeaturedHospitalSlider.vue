@@ -29,7 +29,7 @@ export default {
       return this.$refs.mySwiper.swiper
     },
     callback(){
-
+      
     }
   },
   data() {

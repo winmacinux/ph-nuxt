@@ -23,6 +23,7 @@
 export default {
   props: ['hospital'],
   methods: {
+
     getColorCode(value){
       if(value == "NaN")
         value = 0
@@ -98,8 +99,12 @@ export default {
         background-color: rgba(0, 0, 0, 0.6);
         width: 100%;
         height: 100%;
+        text-align: left;
         position: relative;
+        color: white;
+
         .title {
+          color: white;
           width: 70%;
           font-size: 15px !important;
           // word-break: break-all;
@@ -119,7 +124,7 @@ export default {
         left: 0;
       }
     }
-    .v-chip {  
+    .v-chip {
       // width: 6.5rem;
       .v-chip__content {
         height: auto !important;
