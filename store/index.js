@@ -1,5 +1,4 @@
 import Vuex from 'vuex'
-import axios from 'axios'
 import VueGeolocation from 'vue-browser-geolocation'
 import specialities from '@/static/assets/specialities.json'
 import states from '@/static/assets/states.json'
@@ -109,7 +108,7 @@ const createStore = () => {
       loadStates({commit, getters}, payload) {
         new Promise((resolve, reject) => {
 
-          axios.post(getters.getServerURL.loadStates, payload, getters.getHeaders).then(response=> {
+          this.$axios.$post(getters.getServerURL.loadStates, payload, getters.getHeaders).then(response=> {
             commit('setUserStates', response.data)
             console.log(response.data)
             resolve()
@@ -124,7 +123,7 @@ const createStore = () => {
       },
       // Load Cities to application
       loadCities({commit, getters}, payload) {
-        axios.post(getters.getServerURL.nearbyLocations, payload, getters.getHeaders).then(response=> {
+        this.$axios.$post(getters.getServerURL.nearbyLocations, payload, getters.getHeaders).then(response=> {
           console.log(response.data)
           commit('setNearbyLocations', response.data)
         }).catch(e=> {
@@ -151,7 +150,7 @@ const createStore = () => {
         let search = {
           search: payload
         }
-        axios.post(getters.getServerURL.searchLoad, search, getters.getHeaders).then(response=> {
+        this.$axios.$post(getters.getServerURL.searchLoad, search, getters.getHeaders).then(response=> {
           console.log(response.data)
           commit('setSearch', response.data)
           this.$router.push('/search/')

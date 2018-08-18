@@ -3,7 +3,6 @@ import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 // import * as VueGoogleMaps from 'vue2-google-maps'
 import VueGeolocation from 'vue-browser-geolocation'
-import axios from 'axios'
 import VueLocalStorage from 'vue-ls'
 import VueContentLoading from 'vue-content-loading'
 
@@ -101,7 +100,6 @@ Vue.component('nearby-city-silder', NearbyCitySilder)
 Vue.component('state-silder', StateSlider)
 
 Vue.use(VueLocalStorage)
-Vue.use(axios)
 Vue.use(VueGeolocation)
 // Vue.use(VueGoogleMaps, {
 //   load: {

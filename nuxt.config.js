@@ -4,6 +4,12 @@ module.exports = {
   /*
   ** Headers of the page
   */
+  modules: [
+    '@nuxtjs/axios',
+  ],
+  axios: {
+    // proxyHeaders: false
+  },
   head: {
     title: 'ph-nuxt',
     meta: [
